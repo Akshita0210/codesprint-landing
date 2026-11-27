@@ -1,5 +1,5 @@
 // Event start date and time (India Standard Time)
-const EVENT_DATE = new Date("2027-01-15T10:00:00+05:30");
+const EVENT_DATE = new Date("2027-02-20T10:00:00+05:30");
 
 // ---------- Countdown timer ----------
 function updateCountdown() {
