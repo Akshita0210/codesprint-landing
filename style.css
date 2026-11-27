@@ -1,0 +1,170 @@
+/* ---------- Base ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f7f8fc;
+  --text: #1d2130;
+  --muted: #5b6275;
+  --primary: #4f46e5;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--card);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  text-align: center;
+  padding: 6rem 1rem;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.countdown {
+  font-family: monospace;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  background: #ffffff;
+  color: var(--primary);
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ---------- Sections ---------- */
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.schedule {
+  list-style: none;
+}
+
+.schedule li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e3e5ee;
+}
+
+.schedule span {
+  display: inline-block;
+  width: 100px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* ---------- Register form ---------- */
+.register-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.register-form input {
+  flex: 1 1 220px;
+  padding: 0.75rem;
+  border: 1px solid #d4d7e3;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.register-form .btn {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.form-message {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+}

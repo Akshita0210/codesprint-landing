@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeSprint 2026 | Coding Club Hackathon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="logo">&lt;CodeSprint/&gt;</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#register">Register</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1 class="hero-title">CodeSprint 2026</h1>
+    <p class="hero-tagline">A 24-hour hackathon by the Coding Club. Build, break, learn.</p>
+    <div class="countdown" id="countdown">Loading countdown...</div>
+    <a href="#register" class="btn">Register Now</a>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About the Event</h2>
+    <p>
+      CodeSprint is an overnight hackathon where teams of 2 to 4 students build a working
+      project from scratch. Mentors from the Coding Club will be around all night to help.
+    </p>
+    <div class="cards">
+      <div class="card"><h3>Web &amp; App</h3><p>Build something people can use.</p></div>
+      <div class="card"><h3>AI / ML</h3><p>Train, test and ship a model.</p></div>
+      <div class="card"><h3>Open Innovation</h3><p>Any idea, any stack.</p></div>
+    </div>
+  </section>
+
+  <section id="schedule" class="section">
+    <h2>Schedule</h2>
+    <ul class="schedule">
+      <li><span>10:00 AM</span> Opening ceremony and problem statements</li>
+      <li><span>11:00 AM</span> Hacking begins</li>
+      <li><span>08:00 PM</span> Mentor check-in round</li>
+      <li><span>10:00 AM</span> Hacking ends, final submissions</li>
+      <li><span>12:00 PM</span> Demos and prize distribution</li>
+    </ul>
+  </section>
+
+  <section id="register" class="section">
+    <h2>Register</h2>
+    <form id="register-form" class="register-form">
+      <input type="text" id="team-name" placeholder="Team name" required>
+      <input type="email" id="team-email" placeholder="Team leader email" required>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <p id="form-message" class="form-message"></p>
+  </section>
+
+  <footer class="footer">
+    <p>Made by the Coding Club &middot; CodeSprint 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
