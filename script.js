@@ -32,3 +32,12 @@ form.addEventListener("submit", function (event) {
   message.textContent = `Thanks, team ${teamName}! We will email you the details soon.`;
   form.reset();
 });
+
+
+// ---------- Dark theme toggle ----------
+const toggle = document.getElementById("theme-toggle");
+
+toggle.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
+  toggle.textContent = document.body.classList.contains("dark") ? "☀️ Light" : "🌙 Dark";
+});

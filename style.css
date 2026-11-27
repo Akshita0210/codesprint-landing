@@ -168,3 +168,30 @@ body {
   padding: 2rem;
   color: var(--muted);
 }
+
+
+
+/* ---------- Dark theme ---------- */
+.theme-toggle {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--primary);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+body.dark {
+  --bg: #0f111a;
+  --text: #e6e8f0;
+  --muted: #9aa1b5;
+  --card: #1a1d2b;
+}
+
+body.dark .hero {
+  background: linear-gradient(135deg, #111827, #312e81);
+}
+
+.accent {
+  color: #a5b4fc;
+}
