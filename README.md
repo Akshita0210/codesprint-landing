@@ -11,3 +11,6 @@ This repository was made to practise Git and GitHub: branching, committing, merg
 
 ## How to run
 Open `index.html` in any browser. No installation is needed.
+
+## Author
+Akshita Saxena – Thapar Institute of Engineering and Technology
